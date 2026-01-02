@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #ff0033;
+  --primary-dark: #cc0029;
+  --primary-glow: rgba(255, 0, 51, 0.4);
+  --bg-dark: #0a0a0f;
+  --bg-card: #12121a;
+  --bg-input: #1a1a24;
+  --border-color: #2a2a3a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0b0;
+  --text-muted: #606070;
+  --success: #00d47e;
+  --error: #ff4757;
+  
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-primary);
+  background: var(--bg-dark);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: 
+    radial-gradient(ellipse at top, rgba(255, 0, 51, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(100, 100, 255, 0.05) 0%, transparent 50%),
+    var(--bg-dark);
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+}
